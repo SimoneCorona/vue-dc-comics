@@ -66,6 +66,10 @@
                             <li><a href="">Lorem</a></li>
                             <li><a href="">Lorem</a></li>
                             <li><a href="">Lorem</a></li>
+                            <li><a href="">Lorem</a></li>
+                            <li><a href="">Lorem</a></li>
+                            <li><a href="">Lorem</a></li>
+                            <li><a href="">Lorem</a></li>
                         </ul>
                     </div>
                     
@@ -79,8 +83,7 @@
                             <li><a href="">Lorem</a></li>
                             <li><a href="">Lorem</a></li>
                             <li><a href="">Lorem</a></li>
-                            <li><a href="">Lorem</a></li>
-                            <li><a href="">Lorem</a></li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -185,6 +188,7 @@ footer{
 
                             a{
                                 color: gray;
+                                font-weight: 300;
                             }
                         }
                     }
@@ -219,7 +223,11 @@ footer{
                 justify-content: flex-end;
                 flex-direction: row;
                 align-items: center;
-                color: $brand-primary-color;
+
+                h1{
+                    margin: 0 0.7rem;
+                    color: $brand-primary-color;
+                }
                 
                 img{
                     margin: 0 0.7rem;
