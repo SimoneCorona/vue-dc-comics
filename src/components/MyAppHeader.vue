@@ -48,24 +48,25 @@ header{
   display: inline-block;
   width: 100%;
   height: 100px;
-  color: #000000;  
+  
+  .active{
+          color: #0C7CEC;
+          border-bottom: 4px solid #0C7CEC;
+        }
     ul{
       display: flex;
       justify-content: end;
     
       li{
         margin-left: 1.5rem;
-        line-height: 100px;
+        line-height: 96px;
         
         a{
           font-weight: bold;
           color: inherit;
           height: 100%;
         }
-        .active{
-          color: #0C7CEC;
-          border-bottom: 3px solid #0C7CEC;
-        }
+        
       }
     }  
   }
