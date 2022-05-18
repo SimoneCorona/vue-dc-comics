@@ -4,6 +4,7 @@
       <div class="header_logo">
         <img src="../assets/img/dc-logo.png" alt="">
       </div>
+      
       <nav>
         <ul>
           <li><a href=""> CHARACTERS </a></li>
@@ -19,7 +20,6 @@
         </ul>
       </nav>
     </div>
-
   </header>
 </template>
 

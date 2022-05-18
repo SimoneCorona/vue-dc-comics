@@ -4,11 +4,11 @@
         <section class="icons">
             <div class="container">
                 <ul>
-                    <li>
-                        <img src="../assets/img/buy-comics-digital-comics.png" alt="">
-                        <p>DIGITAL COMICS</p>
+                    <!-- <li v-for="(item, index) in icons" :key="index">
+                        <img :src="require(`../assets/img/${item.img}`)" alt="">
+                        <p>{{ item.text }}</p>
 
-                    </li>
+                    </li> -->
                     <li>
                         <img src="../assets/img/buy-comics-merchandise.png" alt="">
                         <p>DC MERCHANDISE</p>
@@ -117,6 +117,30 @@
 <script>
 export default {
     name: 'MyAppJumbotron',
+    data: function() {
+        [
+            {
+                img: 'buy-comics-digital-comics.png',
+                text: 'DIGITAL COMICS'
+            },
+            {
+                img: 'buy-comics-merchandise.png',
+                text: 'DC MERCHANDISE'
+            },
+            {
+                img: 'buy-comics-subscriptions.png',
+                text: 'SUBSCRIPTION'
+            },
+            {
+                img: 'buy-comics-shop-locator.png',
+                text: 'COMIC SHOP LOCATION'
+            },
+            {
+                img: 'buy-dc-power-visa.svg',
+                text: 'DC POWER VISA'
+            }
+        ]
+    }
 }
 </script>
 
@@ -231,7 +255,7 @@ footer{
                 }
                 
                 img{
-                    margin: 0 0.7rem;
+                    margin: 0 0.5rem;
                 }
             }
         }
